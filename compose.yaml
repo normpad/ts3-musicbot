@@ -1,0 +1,6 @@
+services:
+  ts3-musicbot:
+    build: .
+    image: ts3-musicbot
+    volumes:
+      - /config
